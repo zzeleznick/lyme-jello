@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		247C66641CC2F4E5001B7923 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247C66631CC2F4E5001B7923 /* AppDelegate.swift */; };
+		247C66661CC2F4E5001B7923 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247C66651CC2F4E5001B7923 /* ViewController.swift */; };
+		247C66691CC2F4E5001B7923 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 247C66671CC2F4E5001B7923 /* Main.storyboard */; };
+		247C666C1CC2F4E5001B7923 /* LymeHack.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 247C666A1CC2F4E5001B7923 /* LymeHack.xcdatamodeld */; };
+		247C666E1CC2F4E5001B7923 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 247C666D1CC2F4E5001B7923 /* Assets.xcassets */; };
+		247C66711CC2F4E5001B7923 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 247C666F1CC2F4E5001B7923 /* LaunchScreen.storyboard */; };
+		247C66821CC2F57E001B7923 /* ResearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 247C667F1CC2F553001B7923 /* ResearchKit.framework */; };
+		247C66831CC2F57E001B7923 /* ResearchKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 247C667F1CC2F553001B7923 /* ResearchKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		247C667E1CC2F553001B7923 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 247C66781CC2F552001B7923 /* ResearchKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B183A5951A8535D100C76870;
+			remoteInfo = ResearchKit;
+		};
+		247C66801CC2F553001B7923 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 247C66781CC2F552001B7923 /* ResearchKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 86CC8E9A1AC09332001CCD89;
+			remoteInfo = ResearchKitTests;
+		};
+		247C66841CC2F57E001B7923 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 247C66781CC2F552001B7923 /* ResearchKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B183A4731A8535D100C76870;
+			remoteInfo = ResearchKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		247C66861CC2F57E001B7923 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				247C66831CC2F57E001B7923 /* ResearchKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		247C66601CC2F4E5001B7923 /* LymeHack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LymeHack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		247C66631CC2F4E5001B7923 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		247C66651CC2F4E5001B7923 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		247C66681CC2F4E5001B7923 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		247C666B1CC2F4E5001B7923 /* LymeHack.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LymeHack.xcdatamodel; sourceTree = "<group>"; };
+		247C666D1CC2F4E5001B7923 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		247C66701CC2F4E5001B7923 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		247C66721CC2F4E5001B7923 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		247C66781CC2F552001B7923 /* ResearchKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ResearchKit.xcodeproj; path = "../Downloads/ResearchKit-master/ResearchKit.xcodeproj"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		247C665D1CC2F4E5001B7923 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				247C66821CC2F57E001B7923 /* ResearchKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		247C66571CC2F4E5001B7923 = {
+			isa = PBXGroup;
+			children = (
+				247C66781CC2F552001B7923 /* ResearchKit.xcodeproj */,
+				247C66621CC2F4E5001B7923 /* LymeHack */,
+				247C66611CC2F4E5001B7923 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		247C66611CC2F4E5001B7923 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				247C66601CC2F4E5001B7923 /* LymeHack.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		247C66621CC2F4E5001B7923 /* LymeHack */ = {
+			isa = PBXGroup;
+			children = (
+				247C66631CC2F4E5001B7923 /* AppDelegate.swift */,
+				247C66651CC2F4E5001B7923 /* ViewController.swift */,
+				247C66671CC2F4E5001B7923 /* Main.storyboard */,
+				247C666D1CC2F4E5001B7923 /* Assets.xcassets */,
+				247C666F1CC2F4E5001B7923 /* LaunchScreen.storyboard */,
+				247C66721CC2F4E5001B7923 /* Info.plist */,
+				247C666A1CC2F4E5001B7923 /* LymeHack.xcdatamodeld */,
+			);
+			path = LymeHack;
+			sourceTree = "<group>";
+		};
+		247C66791CC2F552001B7923 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				247C667F1CC2F553001B7923 /* ResearchKit.framework */,
+				247C66811CC2F553001B7923 /* ResearchKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		247C665F1CC2F4E5001B7923 /* LymeHack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 247C66751CC2F4E5001B7923 /* Build configuration list for PBXNativeTarget "LymeHack" */;
+			buildPhases = (
+				247C665C1CC2F4E5001B7923 /* Sources */,
+				247C665D1CC2F4E5001B7923 /* Frameworks */,
+				247C665E1CC2F4E5001B7923 /* Resources */,
+				247C66861CC2F57E001B7923 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				247C66851CC2F57E001B7923 /* PBXTargetDependency */,
+			);
+			name = LymeHack;
+			productName = LymeHack;
+			productReference = 247C66601CC2F4E5001B7923 /* LymeHack.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		247C66581CC2F4E5001B7923 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = zzeleznick;
+				TargetAttributes = {
+					247C665F1CC2F4E5001B7923 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 247C665B1CC2F4E5001B7923 /* Build configuration list for PBXProject "LymeHack" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 247C66571CC2F4E5001B7923;
+			productRefGroup = 247C66611CC2F4E5001B7923 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 247C66791CC2F552001B7923 /* Products */;
+					ProjectRef = 247C66781CC2F552001B7923 /* ResearchKit.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				247C665F1CC2F4E5001B7923 /* LymeHack */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		247C667F1CC2F553001B7923 /* ResearchKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ResearchKit.framework;
+			remoteRef = 247C667E1CC2F553001B7923 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		247C66811CC2F553001B7923 /* ResearchKitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ResearchKitTests.xctest;
+			remoteRef = 247C66801CC2F553001B7923 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		247C665E1CC2F4E5001B7923 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				247C66711CC2F4E5001B7923 /* LaunchScreen.storyboard in Resources */,
+				247C666E1CC2F4E5001B7923 /* Assets.xcassets in Resources */,
+				247C66691CC2F4E5001B7923 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		247C665C1CC2F4E5001B7923 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				247C66661CC2F4E5001B7923 /* ViewController.swift in Sources */,
+				247C66641CC2F4E5001B7923 /* AppDelegate.swift in Sources */,
+				247C666C1CC2F4E5001B7923 /* LymeHack.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		247C66851CC2F57E001B7923 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ResearchKit;
+			targetProxy = 247C66841CC2F57E001B7923 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		247C66671CC2F4E5001B7923 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				247C66681CC2F4E5001B7923 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		247C666F1CC2F4E5001B7923 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				247C66701CC2F4E5001B7923 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		247C66731CC2F4E5001B7923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		247C66741CC2F4E5001B7923 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		247C66761CC2F4E5001B7923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = LymeHack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = z.LymeHack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		247C66771CC2F4E5001B7923 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = LymeHack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = z.LymeHack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		247C665B1CC2F4E5001B7923 /* Build configuration list for PBXProject "LymeHack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				247C66731CC2F4E5001B7923 /* Debug */,
+				247C66741CC2F4E5001B7923 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		247C66751CC2F4E5001B7923 /* Build configuration list for PBXNativeTarget "LymeHack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				247C66761CC2F4E5001B7923 /* Debug */,
+				247C66771CC2F4E5001B7923 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		247C666A1CC2F4E5001B7923 /* LymeHack.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				247C666B1CC2F4E5001B7923 /* LymeHack.xcdatamodel */,
+			);
+			currentVersion = 247C666B1CC2F4E5001B7923 /* LymeHack.xcdatamodel */;
+			path = LymeHack.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 247C66581CC2F4E5001B7923 /* Project object */;
+}
