@@ -13,33 +13,8 @@
 		247C666C1CC2F4E5001B7923 /* LymeHack.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 247C666A1CC2F4E5001B7923 /* LymeHack.xcdatamodeld */; };
 		247C666E1CC2F4E5001B7923 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 247C666D1CC2F4E5001B7923 /* Assets.xcassets */; };
 		247C66711CC2F4E5001B7923 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 247C666F1CC2F4E5001B7923 /* LaunchScreen.storyboard */; };
-		247C66821CC2F57E001B7923 /* ResearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 247C667F1CC2F553001B7923 /* ResearchKit.framework */; };
-		247C66831CC2F57E001B7923 /* ResearchKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 247C667F1CC2F553001B7923 /* ResearchKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4988248C46C432FC27581E6D /* libPods-LymeHack.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 766653855DAC58FA24943EF8 /* libPods-LymeHack.a */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		247C667E1CC2F553001B7923 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 247C66781CC2F552001B7923 /* ResearchKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = B183A5951A8535D100C76870;
-			remoteInfo = ResearchKit;
-		};
-		247C66801CC2F553001B7923 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 247C66781CC2F552001B7923 /* ResearchKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 86CC8E9A1AC09332001CCD89;
-			remoteInfo = ResearchKitTests;
-		};
-		247C66841CC2F57E001B7923 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 247C66781CC2F552001B7923 /* ResearchKit.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = B183A4731A8535D100C76870;
-			remoteInfo = ResearchKit;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		247C66861CC2F57E001B7923 /* Embed Frameworks */ = {
@@ -48,7 +23,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				247C66831CC2F57E001B7923 /* ResearchKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -64,7 +38,9 @@
 		247C666D1CC2F4E5001B7923 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		247C66701CC2F4E5001B7923 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		247C66721CC2F4E5001B7923 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		247C66781CC2F552001B7923 /* ResearchKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ResearchKit.xcodeproj; path = "../Downloads/ResearchKit-master/ResearchKit.xcodeproj"; sourceTree = "<group>"; };
+		766653855DAC58FA24943EF8 /* libPods-LymeHack.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LymeHack.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B91BE0FD52F891A2B7FA7EAD /* Pods-LymeHack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LymeHack.release.xcconfig"; path = "Pods/Target Support Files/Pods-LymeHack/Pods-LymeHack.release.xcconfig"; sourceTree = "<group>"; };
+		D56B56037A28B14923CFA21E /* Pods-LymeHack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LymeHack.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LymeHack/Pods-LymeHack.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				247C66821CC2F57E001B7923 /* ResearchKit.framework in Frameworks */,
+				4988248C46C432FC27581E6D /* libPods-LymeHack.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,9 +58,10 @@
 		247C66571CC2F4E5001B7923 = {
 			isa = PBXGroup;
 			children = (
-				247C66781CC2F552001B7923 /* ResearchKit.xcodeproj */,
 				247C66621CC2F4E5001B7923 /* LymeHack */,
 				247C66611CC2F4E5001B7923 /* Products */,
+				D214CBD0CFB755D6E56D4ACB /* Pods */,
+				467B45C7CE5A8434EE0AE3E7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,13 +87,21 @@
 			path = LymeHack;
 			sourceTree = "<group>";
 		};
-		247C66791CC2F552001B7923 /* Products */ = {
+		467B45C7CE5A8434EE0AE3E7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				247C667F1CC2F553001B7923 /* ResearchKit.framework */,
-				247C66811CC2F553001B7923 /* ResearchKitTests.xctest */,
+				766653855DAC58FA24943EF8 /* libPods-LymeHack.a */,
 			);
-			name = Products;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D214CBD0CFB755D6E56D4ACB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D56B56037A28B14923CFA21E /* Pods-LymeHack.debug.xcconfig */,
+				B91BE0FD52F891A2B7FA7EAD /* Pods-LymeHack.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,15 +111,16 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 247C66751CC2F4E5001B7923 /* Build configuration list for PBXNativeTarget "LymeHack" */;
 			buildPhases = (
+				AB01B7951E90A443A220323D /* Check Pods Manifest.lock */,
 				247C665C1CC2F4E5001B7923 /* Sources */,
 				247C665D1CC2F4E5001B7923 /* Frameworks */,
 				247C665E1CC2F4E5001B7923 /* Resources */,
 				247C66861CC2F57E001B7923 /* Embed Frameworks */,
+				D017E0EA09EF40EC27D220B6 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				247C66851CC2F57E001B7923 /* PBXTargetDependency */,
 			);
 			name = LymeHack;
 			productName = LymeHack;
@@ -167,35 +153,12 @@
 			mainGroup = 247C66571CC2F4E5001B7923;
 			productRefGroup = 247C66611CC2F4E5001B7923 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 247C66791CC2F552001B7923 /* Products */;
-					ProjectRef = 247C66781CC2F552001B7923 /* ResearchKit.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				247C665F1CC2F4E5001B7923 /* LymeHack */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		247C667F1CC2F553001B7923 /* ResearchKit.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = ResearchKit.framework;
-			remoteRef = 247C667E1CC2F553001B7923 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		247C66811CC2F553001B7923 /* ResearchKitTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = ResearchKitTests.xctest;
-			remoteRef = 247C66801CC2F553001B7923 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		247C665E1CC2F4E5001B7923 /* Resources */ = {
@@ -210,6 +173,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AB01B7951E90A443A220323D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D017E0EA09EF40EC27D220B6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LymeHack/Pods-LymeHack-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		247C665C1CC2F4E5001B7923 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -222,14 +218,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		247C66851CC2F57E001B7923 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ResearchKit;
-			targetProxy = 247C66841CC2F57E001B7923 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		247C66671CC2F4E5001B7923 /* Main.storyboard */ = {
@@ -334,6 +322,7 @@
 		};
 		247C66761CC2F4E5001B7923 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D56B56037A28B14923CFA21E /* Pods-LymeHack.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
@@ -346,6 +335,7 @@
 		};
 		247C66771CC2F4E5001B7923 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B91BE0FD52F891A2B7FA7EAD /* Pods-LymeHack.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
@@ -375,6 +365,7 @@
 				247C66771CC2F4E5001B7923 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
