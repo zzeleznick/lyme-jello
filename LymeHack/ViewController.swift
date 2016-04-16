@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  TaskViewController.swift
 //  LymeHack
 //
 //  Created by Zach Zeleznick on 4/16/16.
@@ -7,8 +7,9 @@
 //
 
 import UIKit
+import ResearchKit
 
-class ViewController: UIViewController {
+class TaskViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
