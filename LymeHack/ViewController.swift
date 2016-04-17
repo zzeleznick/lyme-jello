@@ -11,6 +11,8 @@ import ResearchKit
 
 class ViewController: UIViewController {
     
+    var taskResultFinishedCompletionHandler: (ORKResult -> Void)?
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -38,7 +40,6 @@ class ViewController: UIViewController {
         taskViewController.delegate = self
         taskViewController.outputDirectory = NSURL(fileURLWithPath: NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true)[0], isDirectory: true)
         presentViewController(taskViewController, animated: true, completion: nil)
-        
     }
     
     
@@ -46,8 +47,10 @@ class ViewController: UIViewController {
 
 extension ViewController : ORKTaskViewControllerDelegate {
     
+    
     func taskViewController(taskViewController: ORKTaskViewController, didFinishWithReason reason: ORKTaskViewControllerFinishReason, error: NSError?) {
-        //Handle results with taskViewController.result
+        // Handle results with taskViewController.result
+        print(taskViewController.result)
         taskViewController.dismissViewControllerAnimated(true, completion: nil)
     }
     

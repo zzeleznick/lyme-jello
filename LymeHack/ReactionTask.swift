@@ -38,5 +38,5 @@ public var ReactionTask: ORKOrderedTask {
     let successSoundURL = NSBundle.mainBundle().URLForResource("blip", withExtension: "mp3")!
     let successSound = SystemSound(soundURL: successSoundURL)!
     let failureSound =  UInt32(kSystemSoundID_Vibrate)
-    return ORKOrderedTask.reactionTimeTaskWithIdentifier("ActiveTask", intendedUseDescription: exampleDescription, maximumStimulusInterval: 8, minimumStimulusInterval: 4, thresholdAcceleration: 0.5, numberOfAttempts: 3, timeout: 5, successSound: successSound.soundID, timeoutSound: 0, failureSound: failureSound, options: [])
+    return ORKOrderedTask.reactionTimeTaskWithIdentifier("ActiveTask", intendedUseDescription: exampleDescription, maximumStimulusInterval: 8, minimumStimulusInterval: 4, thresholdAcceleration: 0.5, numberOfAttempts: 1, timeout: 5, successSound: successSound.soundID, timeoutSound: 0, failureSound: failureSound, options: [])
 }
