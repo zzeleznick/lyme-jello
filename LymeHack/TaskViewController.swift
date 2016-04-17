@@ -41,6 +41,7 @@ class TaskViewController: UIViewController, ORKTaskViewControllerDelegate {
         didFinishWithReason reason: ORKTaskViewControllerFinishReason,
         error: NSError?) {
             let taskResult = taskViewController.result
+            print(taskResult)
             // You could do something with the result here.
             
             // Then, dismiss the task view controller.

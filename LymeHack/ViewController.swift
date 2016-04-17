@@ -32,6 +32,14 @@ class ViewController: UIViewController {
         taskViewController.delegate = self
         presentViewController(taskViewController, animated: true, completion: nil)
     }
+    
+    @IBAction func activeTapped(sender : AnyObject) {
+        let taskViewController = ORKTaskViewController(task: ReactionTask, taskRunUUID: nil)
+        taskViewController.delegate = self
+        presentViewController(taskViewController, animated: true, completion: nil)
+    }
+    
+    
 }
 
 extension ViewController : ORKTaskViewControllerDelegate {

@@ -31,11 +31,20 @@
                                     <action selector="surveyTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CBA-Kj-vsH"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wMX-3V-lTy">
+                                <rect key="frame" x="279" y="230" width="43" height="30"/>
+                                <state key="normal" title="Active"/>
+                                <connections>
+                                    <action selector="activeTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WkW-27-rJF"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="EEp-2u-I5f" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="342-c8-Zaa"/>
                             <constraint firstItem="EEp-2u-I5f" firstAttribute="top" secondItem="5od-ft-aRW" secondAttribute="bottom" constant="25" id="7f1-SY-Ry8"/>
+                            <constraint firstItem="5od-ft-aRW" firstAttribute="top" secondItem="wMX-3V-lTy" secondAttribute="bottom" constant="25" id="E4b-no-fer"/>
+                            <constraint firstItem="wMX-3V-lTy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HfI-vt-Rgx"/>
                             <constraint firstItem="5od-ft-aRW" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="dOL-DB-V5z"/>
                             <constraint firstItem="5od-ft-aRW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tY0-d4-eb0"/>
                         </constraints>
