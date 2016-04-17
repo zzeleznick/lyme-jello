@@ -16,6 +16,7 @@
 		247C66901CC30281001B7923 /* ConsentDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247C668F1CC30281001B7923 /* ConsentDocument.swift */; };
 		247C66921CC303B0001B7923 /* ConsentTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247C66911CC303B0001B7923 /* ConsentTask.swift */; };
 		247C66941CC3047E001B7923 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247C66931CC3047E001B7923 /* ViewController.swift */; };
+		24E01B111CC308870072E803 /* SurveyTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E01B101CC308870072E803 /* SurveyTask.swift */; };
 		FAC2DBE08A43CC919A1C09FE /* Pods_LymeHack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 078EAE7F49974C6ADCB91858 /* Pods_LymeHack.framework */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +46,7 @@
 		247C668F1CC30281001B7923 /* ConsentDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsentDocument.swift; sourceTree = "<group>"; };
 		247C66911CC303B0001B7923 /* ConsentTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsentTask.swift; sourceTree = "<group>"; };
 		247C66931CC3047E001B7923 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		24E01B101CC308870072E803 /* SurveyTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyTask.swift; sourceTree = "<group>"; };
 		B91BE0FD52F891A2B7FA7EAD /* Pods-LymeHack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LymeHack.release.xcconfig"; path = "Pods/Target Support Files/Pods-LymeHack/Pods-LymeHack.release.xcconfig"; sourceTree = "<group>"; };
 		D56B56037A28B14923CFA21E /* Pods-LymeHack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LymeHack.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LymeHack/Pods-LymeHack.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,6 +87,7 @@
 				247C66631CC2F4E5001B7923 /* AppDelegate.swift */,
 				247C66651CC2F4E5001B7923 /* TaskViewController.swift */,
 				247C66931CC3047E001B7923 /* ViewController.swift */,
+				24E01B101CC308870072E803 /* SurveyTask.swift */,
 				247C668F1CC30281001B7923 /* ConsentDocument.swift */,
 				247C66911CC303B0001B7923 /* ConsentTask.swift */,
 				247C66671CC2F4E5001B7923 /* Main.storyboard */,
@@ -240,6 +243,7 @@
 				247C66661CC2F4E5001B7923 /* TaskViewController.swift in Sources */,
 				247C66901CC30281001B7923 /* ConsentDocument.swift in Sources */,
 				247C66921CC303B0001B7923 /* ConsentTask.swift in Sources */,
+				24E01B111CC308870072E803 /* SurveyTask.swift in Sources */,
 				247C66641CC2F4E5001B7923 /* AppDelegate.swift in Sources */,
 				247C666C1CC2F4E5001B7923 /* LymeHack.xcdatamodeld in Sources */,
 			);
