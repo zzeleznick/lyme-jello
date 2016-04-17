@@ -19,6 +19,7 @@
 		24E01B111CC308870072E803 /* SurveyTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E01B101CC308870072E803 /* SurveyTask.swift */; };
 		24E01B131CC30A600072E803 /* ReactionTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E01B121CC30A600072E803 /* ReactionTask.swift */; };
 		24E01B171CC30D800072E803 /* tap.aif in Resources */ = {isa = PBXBuildFile; fileRef = 24E01B161CC30D800072E803 /* tap.aif */; };
+		24E01B191CC325500072E803 /* blip.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 24E01B181CC325500072E803 /* blip.mp3 */; };
 		FAC2DBE08A43CC919A1C09FE /* Pods_LymeHack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 078EAE7F49974C6ADCB91858 /* Pods_LymeHack.framework */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +52,7 @@
 		24E01B101CC308870072E803 /* SurveyTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyTask.swift; sourceTree = "<group>"; };
 		24E01B121CC30A600072E803 /* ReactionTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReactionTask.swift; sourceTree = "<group>"; };
 		24E01B161CC30D800072E803 /* tap.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = tap.aif; sourceTree = "<group>"; };
+		24E01B181CC325500072E803 /* blip.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = blip.mp3; sourceTree = "<group>"; };
 		B91BE0FD52F891A2B7FA7EAD /* Pods-LymeHack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LymeHack.release.xcconfig"; path = "Pods/Target Support Files/Pods-LymeHack/Pods-LymeHack.release.xcconfig"; sourceTree = "<group>"; };
 		D56B56037A28B14923CFA21E /* Pods-LymeHack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LymeHack.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LymeHack/Pods-LymeHack.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -108,6 +110,7 @@
 		24E01B151CC30D6F0072E803 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				24E01B181CC325500072E803 /* blip.mp3 */,
 				24E01B161CC30D800072E803 /* tap.aif */,
 			);
 			name = Resources;
@@ -193,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				247C66711CC2F4E5001B7923 /* LaunchScreen.storyboard in Resources */,
+				24E01B191CC325500072E803 /* blip.mp3 in Resources */,
 				247C666E1CC2F4E5001B7923 /* Assets.xcassets in Resources */,
 				24E01B171CC30D800072E803 /* tap.aif in Resources */,
 				247C66691CC2F4E5001B7923 /* Main.storyboard in Resources */,
@@ -375,6 +379,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = LymeHack/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = z.LymeHack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -388,6 +393,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = LymeHack/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = z.LymeHack;
 				PRODUCT_NAME = "$(TARGET_NAME)";

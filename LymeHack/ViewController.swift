@@ -36,7 +36,9 @@ class ViewController: UIViewController {
     @IBAction func activeTapped(sender : AnyObject) {
         let taskViewController = ORKTaskViewController(task: ReactionTask, taskRunUUID: nil)
         taskViewController.delegate = self
+        taskViewController.outputDirectory = NSURL(fileURLWithPath: NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true)[0], isDirectory: true)
         presentViewController(taskViewController, animated: true, completion: nil)
+        
     }
     
     
