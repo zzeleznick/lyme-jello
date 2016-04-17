@@ -25,11 +25,22 @@ public var ConsentDocument: ORKConsentDocument {
         .Withdrawing
     ]
     
+    let contentInfoTuples = [
+        ["If you wish to complete this study your health can be monitored by your doctor.", "In this study you will be asked a series of questions about your health"],
+        ["Your data will be gathered securely and fairly", "All of your data can be accessed by you and sensitive information will be de-identified"],
+        ["Your privacy is our concern", "All of your data can be accessed by you and sensitive information will be de-identified"],
+        ["Data will be used for research purposes only",  "All of your data can be accessed by you and sensitive information will be de-identified"],
+        ["Surveys will be short and simple", "Let your doctor know if you have any questons"],
+        ["Surveys will be short and simple", "Let your doctor know if you have any questons"],
+        ["Surveys will be short and simple", "Let your doctor know if you have any questons"],
+        ["Surveys will be short and simple", "Let your doctor know if you have any questons"]
+    ]
+    
     // MARK - Provide the info 
-    let consentSections: [ORKConsentSection] = consentSectionTypes.map { contentSectionType in
+    let consentSections: [ORKConsentSection] = consentSectionTypes.enumerate().map { idx, contentSectionType in
         let consentSection = ORKConsentSection(type: contentSectionType)
-        consentSection.summary = "If you wish to complete this study..."
-        consentSection.content = "In this study you will be asked five (wait, no, three!) questions. You will also have your voice recorded for ten seconds."
+        consentSection.summary = contentInfoTuples[idx][0]// "If you wish to complete this study your health can be monitored by your doctor."
+        consentSection.content = contentInfoTuples[idx][1] // "In this study you will be asked a series of questions about your health"
         return consentSection
     }
     
